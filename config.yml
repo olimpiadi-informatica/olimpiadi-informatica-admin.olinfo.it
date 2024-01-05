@@ -3,6 +3,7 @@ backend:
   repo: olimpiadi-informatica/website
   site_domain: abbc5244-c379-41d2-8c38-bc6f6f87afaa
   branch: main
+publish_mode: editorial_workflow
 media_folder: 'static/images/uploads'
 public_folder: '/images/uploads'
 collections:
