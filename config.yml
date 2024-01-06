@@ -27,7 +27,7 @@ collections:
             multiple: true 
             required: false
             max: 1
-            options: ["school", "regional", "national", "stage", "international"]
+            options: ["school", "regional", "national", "stage", "international", "digit"]
           - label: "Edition"
             name: "edition"
             widget: "select"
