@@ -1,6 +1,8 @@
 backend:
   name: github
   repo: olimpiadi-informatica/website
+  auth_scope: repo
+  open_authoring: true
   site_domain: abbc5244-c379-41d2-8c38-bc6f6f87afaa
   branch: main
 publish_mode: editorial_workflow
