@@ -14,7 +14,8 @@ collections:
     folder: 'content/'
     create: true
     format: 'toml-frontmatter'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
+    preview-path: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
