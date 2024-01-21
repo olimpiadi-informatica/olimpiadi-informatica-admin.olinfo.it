@@ -59,6 +59,7 @@ collections:
     folder: 'content/fixed/'
     format: 'toml-frontmatter'
     slug: '{{slug}}'
+    preview_path: 'fixed/{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
