@@ -26,15 +26,15 @@ collections:
         widget: "object"
         collapsed: false
         fields:
-          - label: "Contest"
-            name: "contest"
+          - label: "Gare"
+            name: "Gare"
             widget: "select"
             multiple: true 
             required: false
             max: 1
-            options: ["school", "regional", "national", "stage", "international", "digit"]
-          - label: "Edition"
-            name: "edition"
+            options: ["scolastiche", "territoriali", "nazionali", "stage", "internazionali", "digit"]
+          - label: "Edizioni"
+            name: "edizioni"
             widget: "select"
             multiple: true 
             required: false
@@ -55,12 +55,12 @@ collections:
           - { label: 'Highlighted', name: 'highlighted', widget: 'boolean', required: false }
           - { label: 'Override Updated Date', name: 'override_updated', widget: 'datetime', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'fixed'
-    label: 'Fixed content'
-    folder: 'content/fixed/'
+  - name: 'pagine'
+    label: 'Pagine statiche'
+    folder: 'content/pagine/'
     format: 'toml-frontmatter'
     slug: '{{slug}}'
-    preview_path: 'fixed/{{slug}}'
+    preview_path: 'pagine/{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
