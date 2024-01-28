@@ -27,7 +27,7 @@ collections:
         collapsed: false
         fields:
           - label: "Gare"
-            name: "Gare"
+            name: "gare"
             widget: "select"
             multiple: true 
             required: false
