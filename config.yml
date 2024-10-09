@@ -22,6 +22,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Keywords', name: 'description', widget: 'string', required: false }
+      - label: "Carica un file"
+        name: "uploaded_files"
+        widget: "file"
+        required: false
+        media_library:
+          config:
+            choose_url: false
+            media_folder: '/static/files/'
+            multiple: true
       - label: "Taxonomies"
         name: "taxonomies"
         widget: "object"
