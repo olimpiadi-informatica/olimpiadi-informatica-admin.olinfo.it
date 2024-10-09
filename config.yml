@@ -28,9 +28,9 @@ collections:
         required: false
         media_library:
           config:
-            choose_url: false
-            media_folder: '/static/files/'
             multiple: true
+          media_folder: '/static/files/'
+          choose_url: false
       - label: "Taxonomies"
         name: "taxonomies"
         widget: "object"
